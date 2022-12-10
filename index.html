@@ -9,28 +9,32 @@
       <title>Calculator</title>
    </head>
    <body>
-      <section id="calculator">
-         <input type="text" id="calcInput" value = ""><br>
-         <button id="reset">AC</button>
-         <button id="delete">Delete</button><br>
-         <button id="add">+</button><br>
-         <button id="substract">-</button><br>
-         <button id="multiply">*</button><br>
-         <button id="divide">/</button><br>
-         <button id="solve">=</button>
-         <section id="numbers">
-            <button id="zero" >0</button>
-            <button id="dot">.</button><br>
-            <button id="one">1</button>
-            <button id="two">2</button>
-            <button id="three">3</button><br>
-            <button id="four">4</button>
-            <button id="five">5</button>
-            <button id="six">6</button><br>
-            <button id="seven">7</button>
-            <button id="eight">8</button>
-            <button id="nine">9</button>
-         </section>
+      <section class="calculator-grid">
+      <section class="output">
+      <section data-previous-operand class="previous-operand"></section>
+      <section data-current-operand class="current-operand"></section>
       </section>
-   </body>
+      <button data-all-clear class="span-two">AC</button>
+      <button data-delete>CLR</button>
+      <button data-operation>÷</button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>*</button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>+</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>-</button>
+      <button data-number>.</button>
+      <button data-number>0</button>
+      <button data-equals class="span-two">=</button>
+  
+      </section>
+  
+    </body>
+
 </html>
